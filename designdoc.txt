@@ -1,0 +1,11 @@
+Font matters (make sure it's not some blocky bullshit):
+Go with the pixelated stuff I like.
+- Press Start 2p (title)
+- Quicksand (body)
+
+use at most 3 different colors (that go well with each other)
+
+Logo = pixel computer screen with SH or S on it.
+
+header rgb 0,163,204
+
