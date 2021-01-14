@@ -122,3 +122,8 @@ h2 {
     color: aliceblue;
     text-align: center;
 }
+
+p {
+    font-family: "Quicksand", sans-serif;
+    color: black;
+}
