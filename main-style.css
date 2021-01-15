@@ -9,7 +9,6 @@ font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background: url("background2.png") top no-repeat, url("background.png") bottom no-repeat;
     margin: 0;
     padding: 0;
 }
@@ -111,7 +110,7 @@ h1 {
 
 h2 {
     font-family: "Press Start 2p", cursive;
-    font-size: medium;
+    font-size: large;
     color: black;
     text-align: center;
 }
@@ -126,4 +125,5 @@ h2 {
 p {
     font-family: "Quicksand", sans-serif;
     color: black;
+    font-size: 16px;
 }
