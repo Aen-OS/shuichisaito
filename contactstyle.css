@@ -1,0 +1,10 @@
+html {
+    background: url("background.png");
+    background: cover;
+}
+
+header {
+    overflow: hidden;
+    background-color: black;
+    padding: 25px 10px;
+}
