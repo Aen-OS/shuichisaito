@@ -1,3 +1,8 @@
+html {
+    background: url("background2.png") top no-repeat, url("background.png") bottom no-repeat;
+    background-size: cover;
+}
+
 .container {
     max-width: 960px;
     margin: 0 auto;
