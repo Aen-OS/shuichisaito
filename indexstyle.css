@@ -28,3 +28,19 @@ p {
     font-family: "Quicksand", sans-serif;
     color: black;
 }
+
+@media screen and (max-width:700px) {
+    .parallax {
+        background: url("homebackground.png") no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 300px;
+    }
+
+    .parallax2 {
+        background: url("homebackground2.png") no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 300px;
+    }
+}
