@@ -4,13 +4,13 @@
 <!-- WxH -->
 
 <!-- Issues
-- Logo 
-- H1
-- menulinks
-- parallax images
+- parallax images (shorten height)
 -->
 
 <!-- Fixes
+- menulinks
+- Logo
+- H1
 - Text
 - Background Image
 -->
@@ -28,27 +28,20 @@
     <title>Hi!, I'm shuichisaito</title>
 </head>
 
-<body>
-    <header>
-        <div>
-            <ul class="menulinks">
-                <li class="menu "><a class="regular" href="index.html ">Home</a>
-                </li>
-                <li class="menu ">
-                    <a class="regular" href="contact.html ">Contact</a>
-                    <li class="menu">
-                        <a class="regular" href="blog.html">Blog</a>
-                    </li>
-                </li>
+<body >
+    <div class="header">
+        <div class="header-right">
+            <ul>
+            <li><a class="regular" href="index.html ">Home</a></li>
+            <li><a class="regular" href="contact.html ">Contact</a></li>
+            <li ><a class="regular" href="blog.html">Blog</a></li>
             </ul>
         </div>
-        <h1>Hi!, I'm shuichisaito</h1>
-    </header>
-    <section>
-        <div class=" logo ">
-            <img src="shuichipc128.png " alt="shuichisaitologo ">
-        </div>
-    </section>
+        <h1 class="home">Hi!, I'm shuichisaito</h1>
+    </div>
+    <div class=" logo ">
+        <a href="#aboutme"><img src="shuichipc128.png " alt="shuichisaitologo "></a>
+    </div>
 
     <div class="container">
         <p>Hi, welcome to my website! My name is Anas, though i like to go by the name 'Shuichi Saito' when i'm online.</p>
@@ -57,13 +50,14 @@
         <div class="parallax">
 
         </div>
+        <a id="aboutme">
         <br></br>
         <h2>About shuichi</h2>
         <p><b>Why "shuichisaito"?</b> ---> shuichisaito is a name i took from a horror book called Uzumaki (author - Junji Ito)</p>
         <p><b>Where'd you get those awesome pics from?</b> ---> They are called 8bit day wallpapers, created by Danny Care -> <a class="bitlink" href="https://www.bitday.me/download/">bitday</a></p>
         <p><b>Why did you make this website?</b> ---> To showcase my html and css skills! (and maybe some javascript soon)</p>
         <br></br>
-        <p><strong>A little description of who i am:</strong></p>
+        <p><strong>whoami:</strong></p>
         <p>I'm currently unemployed, seeking to learn new skills, involving programming and cybersecurity, and hopefully enter the cybersecurity industry. I spend my time either practicing what i already know or learning something new. For example, right
             now i'm learning about networking, how to code in HTML, and how penetration testing is generally carried out. This is all self-taught with the help of a long-time childhood friend - Google.
         </p>
@@ -72,6 +66,7 @@
         <p> Reading -- Myth of Sisyphus, RESET, & Linux for Hackers by Tye Darwin</p>
         <p> Watching -- Haikyuu!! & Our Planet</p>
         <p> Playing -- Tekken 7</p>
+        </a>
         <div class="parallax2">
         </div>
         <p>Thank you for coming. Stay safe and take care! (^_^)b</p>
